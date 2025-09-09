@@ -106,3 +106,52 @@ Copy code
 npm run dev
 App URL: http://localhost:5173/
 
+
+📝 Features
+
+Add Task → Create a new task
+
+Toggle Done/Undone → Mark task as complete/incomplete
+
+Delete Task → Remove a task
+
+DRF Browsable API → http://127.0.0.1:8000/api/tasks/
+
+Fully connected Frontend + Backend
+
+📸 Screenshots
+Task Manager UI	Task Added
+
+	
+
+Screenshots optional but recommended for submission
+
+🚀 Deployment Steps
+//pending now but asap proper deploy
+Backend Deployment
+
+Platforms: Render / Railway / Heroku
+
+Update .env with production variables:
+
+SECRET_KEY=production_secret_key
+DEBUG=False
+ALLOWED_HOSTS=<your_domain>
+
+
+Run migrations on server
+
+Expose /api/ endpoints
+
+Frontend Deployment
+
+Platforms: Vercel / Netlify
+
+Update VITE_API_URL in .env to point to deployed backend API
+
+Build & deploy:
+
+npm run build
+
+
+Connect frontend to backend via VITE_API_URL
