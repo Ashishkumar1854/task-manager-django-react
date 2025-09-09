@@ -1,5 +1,4 @@
 # Task Manager Django + React
-# Task Manager – AI Internship Demo
 
 Manage your tasks efficiently with this Task Manager app built for the Aarohita Vigyan Internship.  
 Built with **Django + Django REST Framework (Backend)** and **React + Vite (Frontend)**.
